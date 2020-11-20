@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: square;
+}
+#main {
+  background-color: #eae2b7;
+  background-color: #e9edc9;
+  margin: 20px 10px;
+  border-radius: 10px;
+}
+header {
+  width: 100%;
+  height: 190px;
+  text-align: center;
+}
+header h1 {
+  font-size: 30px;
+  padding-top: 50px;
+}
+header p {
+  text-transform: capitalize;
+  font-size: 15px;
+  word-spacing: 3px;
+  padding: 10px 20px;
+  font-weight: 550;
+}
+#img-div {
+  width: 95%;
+  background-color: #fff;
+  margin: auto;
+  height: 100%;
+  text-align: center;
+}
+img {
+  max-width: 90%;
+  margin: 0 auto;
+  display:block;
+  height: auto;
+  padding: 20px;
+}
+#img-caption{
+  font-size: 15px;
+  word-spacing: 2px;
+  padding: 10px;
+  margin-top: 10px;
+}
+#tribute-info {
+  padding-top: 40px;
+  text-align: left;
+  padding-left: 10px;
+}
+#tribute-info h2 {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+#tribute-info li {
+  padding-left: 5px;
+  padding-bottom: 20px;
+  word-spacing: 2px;
+  text-align: left;
+}
+#tribute-info li span {
+  font-weight: bold;
+}
+footer {
+  padding: 10px;
+}
+#tribute-info p {
+  font-size: 15px;
+  padding: 10px;
+}
+footer h3 {
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+}
+@media only screen and (min-width: 700px) {
+  #tribute-info {
+    width: 600px;
+    margin: auto;
+  }
+}
